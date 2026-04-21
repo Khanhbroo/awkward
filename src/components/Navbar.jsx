@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useWindowScroll } from "react-use";
 
+import gsap from "gsap";
 import Button from "./Button";
 import { Navigation } from "lucide-react";
-import gsap from "gsap";
 
 const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
