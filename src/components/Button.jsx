@@ -1,4 +1,4 @@
-const Button = ({ id, title, leftIcon, containerClass }) => {
+const Button = ({ id, title, leftIcon, rightIcon, containerClass }) => {
   return (
     <button
       id={id}
@@ -10,8 +10,9 @@ const Button = ({ id, title, leftIcon, containerClass }) => {
         <div>{title}</div>
       </span>
 
+      {rightIcon}
     </button>
   );
-}; 
+};
 
 export default Button;
