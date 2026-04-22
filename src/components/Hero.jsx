@@ -156,7 +156,7 @@ const Hero = () => {
                 id="watch-trailer"
                 title="Watch Trailer"
                 leftIcon={<Navigation fill="#000000" size={16} />}
-                containerClass="bg-yellow-300 flex-center gap-3"
+                containerClass="bg-yellow-300 flex-center gap-3 hover:bg-yellow-400 mt-4"
               />
             </p>
           </div>
