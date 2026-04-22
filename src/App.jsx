@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import { About, Features, Hero, Navbar, Story } from "./components";
+import { About, Features, Hero, Navbar, Story, Contact, Footer  } from "./components";
 
 const App = () => {
   // Adding smooth scroll behavior
@@ -17,6 +17,8 @@ const App = () => {
       <About />
       <Features />
       <Story />
+      <Contact />
+      <Footer />
     </main>
   );
 };
