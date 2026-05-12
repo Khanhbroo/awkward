@@ -1,8 +1,18 @@
-# Awkward
+# 🌍 Awkward 
 
 **“Embracing the beauty of unconventional interactions.”**
 
 ---
+
+## 🚀 Live Demo & Performance
+
+### 🔗 Live Demo
+[https://gsap-cocktails-five-gamma.vercel.app/](https://gsap-cocktails-five-gamma.vercel.app/)
+
+> 💡 **Pro Tip:** This project uses high-performance GSAP animations. For the best experience, please use a modern browser (Chrome, Safari, or Edge) and ensure hardware acceleration is enabled.
+
+---
+
 
 ## 👁️ The Concept
 
@@ -82,6 +92,15 @@ npm install
 # Launch the experience
 npm run dev
 ```
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/351a6db7-2aac-4ab2-81f8-0581c3f46613" />
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/fe48e008-05e3-4eb1-b280-c02e9ad318d4" />
+</div>
 
 ---
 
