@@ -4,19 +4,9 @@
 
 ---
 
-## 🚀 Live Demo & Performance
-
-### 🔗 Live Demo
-[https://gsap-cocktails-five-gamma.vercel.app/](https://gsap-cocktails-five-gamma.vercel.app/)
-
-> 💡 **Pro Tip:** This project uses high-performance GSAP animations. For the best experience, please use a modern browser (Chrome, Safari, or Edge) and ensure hardware acceleration is enabled.
-
----
-
-
 ## 👁️ The Concept
 
-**Awkward** isn't just another UI library or a standard portfolio. It is a digital playground where the ranh giới between logic-driven code and visual art is intentionally blurred. 
+**Awkward** isn't just another UI library or a standard portfolio. It is a digital playground where the boundary between logic-driven code and visual art is intentionally blurred. 
 
 The name "Awkward" celebrates the beauty in the unusual. It focuses on interactions that might feel "unconventional" at first—defying standard grid systems and predictable scroll behaviors—but are executed with such technical precision that they feel incredibly satisfying and "organic." This project is a showcase of how complex design concepts can be translated into high-performance, fluid web experiences.
 
@@ -26,8 +16,8 @@ The name "Awkward" celebrates the beauty in the unusual. It focuses on interacti
 
 | Core Engine | Animation & Motion | Styling & Utils |
 | :--- | :--- | :--- |
-| **React (Vite)** | **GSAP** (ScrollTrigger, Flip, Draggable) | **Tailwind CSS** (Custom Config) |
-| **TypeScript** | **Lenis** (Smooth Scroll) | **Lucide React** (Icons) |
+| **React 19 (Vite 8)** | **GSAP** (`gsap`, `@gsap/react`) | **Tailwind CSS v4** |
+| **JavaScript (ESM)** | **Native CSS Smooth Scroll** | **Lucide React** & **react-use** |
 
 ---
 
@@ -36,16 +26,22 @@ The name "Awkward" celebrates the beauty in the unusual. It focuses on interacti
 ```text
 awkward/
 ├── src/
-│   ├── components/        # Highly interactive React components
+│   ├── components/        # Interactive section & UI components
+│   │   ├── About.jsx
 │   │   ├── AnimatedTitle.jsx
+│   │   ├── Button.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Features.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
 │   │   ├── RoundedCorner.jsx
 │   │   └── Story.jsx
-│   ├── hooks/             # Custom hooks for animation lifecycle
-│   │   └── use-gsap.js    # Specialized GSAP context management
-│   ├── styles/            # Tailwind layers and custom CSS variables
-│   └── App.jsx            # Main entry with Lenis & GSAP initialization
-├── public/                # High-fidelity assets
-└── package.json           # Engineering dependencies
+│   ├── App.jsx            # Root layout & smooth scroll setup
+│   ├── index.css          # Tailwind CSS v4 styles
+│   └── main.jsx           # Client entry point
+├── public/                # Static assets
+└── package.json           # Project dependencies & scripts
 ```
 
 ---
